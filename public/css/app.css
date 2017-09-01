@@ -1405,7 +1405,7 @@ body {
   font-family: "Raleway", sans-serif;
   font-size: 14px;
   line-height: 1.6;
-  color: #636b6f;
+  color: #FFFFFF;
   background-color: transparent;
 }
 
@@ -4089,29 +4089,29 @@ fieldset[disabled] .btn-default.focus {
 
 .btn-primary {
   color: #fff;
-  background-color: #3097D1;
-  border-color: #2a88bd;
+  background-color: #4CAF50;
+  border-color: #43A047;
 }
 
 .btn-primary:focus,
 .btn-primary.focus {
   color: #fff;
-  background-color: #2579a9;
-  border-color: #133d55;
+  background-color: #4CAF50;
+  border-color: #43A047;
 }
 
 .btn-primary:hover {
   color: #fff;
-  background-color: #2579a9;
-  border-color: #1f648b;
+  background-color: #4CAF50;
+  border-color: #43A047;
 }
 
 .btn-primary:active,
 .btn-primary.active,
 .open > .btn-primary.dropdown-toggle {
   color: #fff;
-  background-color: #2579a9;
-  border-color: #1f648b;
+  background-color: #A0E418;
+  border-color: #A0E418;
 }
 
 .btn-primary:active:hover,
@@ -4124,8 +4124,8 @@ fieldset[disabled] .btn-default.focus {
 .open > .btn-primary.dropdown-toggle:focus,
 .open > .btn-primary.dropdown-toggle.focus {
   color: #fff;
-  background-color: #1f648b;
-  border-color: #133d55;
+  background-color: #A0E418;
+  border-color: #A0E418;
 }
 
 .btn-primary:active,
@@ -5689,26 +5689,26 @@ tbody.collapse.in {
 }
 
 .navbar-default {
-  background-color: #fff;
-  border-color: #d3e0e9;
+  background-color: #525050;
+  border-color: #525050;
 }
 
 .navbar-default .navbar-brand {
-  color: #777;
+  color: #FFFFFF;
 }
 
 .navbar-default .navbar-brand:hover,
 .navbar-default .navbar-brand:focus {
-  color: #5e5d5d;
+  color: #FFFFFF;
   background-color: transparent;
 }
 
 .navbar-default .navbar-text {
-  color: #777;
+  color: #FFFFFF;
 }
 
 .navbar-default .navbar-nav > li > a {
-  color: #777;
+  color: #FFFFFF;
 }
 
 .navbar-default .navbar-nav > li > a:hover,
@@ -6830,7 +6830,7 @@ button.list-group-item-danger.active:focus {
 
 .panel {
   margin-bottom: 22px;
-  background-color: #fff;
+  background: rgba(82,80,80,0.7);
   border: 1px solid transparent;
   border-radius: 4px;
   -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
@@ -7113,13 +7113,13 @@ button.list-group-item-danger.active:focus {
 }
 
 .panel-default {
-  border-color: #d3e0e9;
+  border-color:rgba(82,80,80,0.7);
 }
 
 .panel-default > .panel-heading {
-  color: #333333;
-  background-color: #fff;
-  border-color: #d3e0e9;
+  color: #FFFFFF;
+  background-color: rgba(82,80,80,0.7);
+  border-color: rgba(82,80,80,0.7);
 }
 
 .panel-default > .panel-heading + .panel-collapse > .panel-body {
