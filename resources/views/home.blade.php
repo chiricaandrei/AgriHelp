@@ -1,34 +1,24 @@
-<html>
-<head>
-  <title> AgroHelp Login</title>
-  <link href="{{asset('css/home.css')}}" rel="stylesheet" />
-</head>
-<body>
-<div class='view_parent_image1'>
-     <div class="form">
-          <form class="register-form">
-                  <input type="text" placeholder="name"/>
-                  <input type="password" placeholder="password"/>
-                  <input type="text" placeholder="email address"/>
-                  <button>create</button>
-          <p class="message">Already registered? <a href="#">Sign In</a></p>
-          </form>
+@extends('layouts.app')
 
-          <form class="login-form">
-                  <input type="text" placeholder="username"/>
-                  <input type="password" placeholder="password"/>
-                  <button>login</button>
-                  <p class="message">Not registered? <a href="#">Create an account</a></p>
-           </form>
-      </div>
+@section('content')
+<div class="container">
+    <div class="row">
+        <div class="col-md-8 col-md-offset-2">
+            <div class="panel panel-default">
+                <div class="panel-heading">Dashboard</div>
+
+                <div class="panel-body">
+                    @if (session('status'))
+                        <div class="alert alert-success">
+                            {{ session('status') }}
+                        </div>
+                    @endif
+
+                    You are logged in!
+                </div>
+            </div>
+        </div>
+    </div>
 </div>
 
-
-
-</body>
-
-
-
-
-
-</html>
+@endsection
